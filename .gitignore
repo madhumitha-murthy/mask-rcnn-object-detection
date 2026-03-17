@@ -1,0 +1,32 @@
+# Model weights (too large for GitHub)
+*.h5
+*.hdf5
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cloned repos (install separately)
+Mask_RCNN/
+cocoapi/
+
+# Large outputs
+outputs/*.png
+outputs/*.jpg
