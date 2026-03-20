@@ -30,7 +30,5 @@ Thumbs.db
 Mask_RCNN/
 cocoapi/
 
-# Large outputs (exclude annotated images but keep the metrics chart)
-outputs/*_result.png
+# Outputs (all results committed)
 outputs/*_result.jpg
-!outputs/class_distribution.png
