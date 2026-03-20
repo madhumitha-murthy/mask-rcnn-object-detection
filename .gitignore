@@ -23,10 +23,14 @@ env/
 .DS_Store
 Thumbs.db
 
+# JupyterLab workspace
+.jupyter/
+
 # Cloned repos (install separately)
 Mask_RCNN/
 cocoapi/
 
-# Large outputs
-outputs/*.png
-outputs/*.jpg
+# Large outputs (exclude annotated images but keep the metrics chart)
+outputs/*_result.png
+outputs/*_result.jpg
+!outputs/class_distribution.png
